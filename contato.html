@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Psicologia de Mulheres</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="/img/logo.png" alt="Logo" srcset="" id="logo">
+                <!-- <i class="fas fa-heart"></i>
+                <span>Psicologia de Mulheres</span> -->
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="btn btn-primary">
+                <a href="agendar.html">Agendar Consulta</a>
+            </button>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Entre em Contato</h1>
+                        <p>Estamos aqui para ajudar. Entre em contato conosco para agendar uma consulta, tirar dúvidas ou saber mais sobre nossos serviços.</p>
+                    </div>
+                    <div class="hero-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Contato">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Informações de Contato -->
+        <section class="contact-info-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Formulário de Contato -->
+                    <div class="contact-form-container">
+                        <div class="section-header">
+                            <h2>Envie uma mensagem</h2>
+                            <p>Preencha o formulário abaixo e entraremos em contato em breve</p>
+                        </div>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nome completo</label>
+                                <input type="text" id="name" placeholder="Digite seu nome">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Digite seu email">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefone</label>
+                                <input type="tel" id="phone" placeholder="Digite seu telefone">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Assunto</label>
+                                <select id="subject">
+                                    <option value="">Selecione um assunto</option>
+                                    <option value="agendamento">Agendamento de consulta</option>
+                                    <option value="informacoes">Informações sobre serviços</option>
+                                    <option value="valores">Valores e convênios</option>
+                                    <option value="outros">Outros assuntos</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea id="message" placeholder="Digite sua mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Enviar mensagem</button>
+                        </form>
+                    </div>
+
+                    <!-- Informações de Contato -->
+                    <div class="contact-details-container">
+                        <div class="section-header">
+                            <h2>Informações de Contato</h2>
+                            <p>Entre em contato conosco pelos canais abaixo</p>
+                        </div>
+
+                        <div class="contact-cards">
+                            <div class="card">
+                                <div class="card-content contact-card-content">
+                                    <i class="fas fa-phone"></i>
+                                    <div>
+                                        <h3>Telefone</h3>
+                                        <p>(11) 99999-9999</p>
+                                        <p>(11) 5555-5555</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-content contact-card-content">
+                                    <i class="fas fa-envelope"></i>
+                                    <div>
+                                        <h3>Email</h3>
+                                        <p>contato@psicologiademulheres.com</p>
+                                        <p>agendamento@psicologiademulheres.com</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-content contact-card-content">
+                                    <i class="fab fa-whatsapp"></i>
+                                    <div>
+                                        <h3>WhatsApp</h3>
+                                        <p>(11) 99999-9999</p>
+                                        <p class="small-text">Atendimento de segunda a sexta, das 8h às 20h</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-content contact-card-content">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div>
+                                        <h3>Endereço</h3>
+                                        <p>Av. Paulista, 1000 - Bela Vista</p>
+                                        <p>São Paulo - SP, 01310-100</p>
+                                        <p class="small-text">Próximo à estação Brigadeiro do metrô</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-content contact-card-content">
+                                    <i class="fas fa-clock"></i>
+                                    <div>
+                                        <h3>Horário de Atendimento</h3>
+                                        <p>Segunda a sexta: 8h às 20h</p>
+                                        <p>Sábados: 8h às 12h</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mapa -->
+        <section class="map-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Como Chegar</h2>
+                    <p>Estamos localizados em um local de fácil acesso, próximo à estação Brigadeiro do metrô</p>
+                </div>
+
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d7314.055530660272!2d-46.65465770737227!3d-23.567446265182337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1spt-BR!2sbr!4v1745258411074!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Perguntas Frequentes</h2>
+                    <p>Respostas para as dúvidas mais comuns sobre nossos atendimentos</p>
+                </div>
+
+                <div class="faq-cards">
+                    <div class="card">
+                        <div class="card-content">
+                            <h3>Como agendar uma consulta?</h3>
+                            <p>Você pode agendar uma consulta através do nosso site, pelo telefone, WhatsApp ou email. Basta entrar em contato e informar sua disponibilidade de horários.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <h3>Vocês atendem por convênio?</h3>
+                            <p>Sim, trabalhamos com diversos convênios e planos de saúde. Entre em contato conosco para verificar se o seu plano está na nossa lista de parceiros.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <h3>Qual o valor da consulta particular?</h3>
+                            <p>Os valores variam de acordo com o tipo de atendimento e profissional. Entre em contato conosco para obter informações atualizadas sobre os valores.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <h3>Vocês oferecem atendimento online?</h3>
+                            <p>Sim, oferecemos atendimento online para todas as modalidades de terapia. As sessões são realizadas por videoconferência em plataforma segura.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2024 Psicologia de Mulheres. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

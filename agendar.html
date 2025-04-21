@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Consulta - Psicologia de Mulheres</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="/img/logo.png" alt="Logo" srcset="" id="logo">
+                <!-- <i class="fas fa-heart"></i>
+                <span>Psicologia de Mulheres</span> -->
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="btn btn-primary">
+                <a href="agendar.html">Agendar Consulta</a>
+            </button>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Agende sua Consulta</h1>
+                        <p>Dê o primeiro passo para cuidar da sua saúde mental. Agende uma consulta com nossas especialistas.</p>
+                    </div>
+                    <div class="hero-image"> <!-- imagem hero 600x400 -->
+                        <img src="https://via.placeholder.com/600x400" alt="Agendamento">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Processo de Agendamento -->
+        <section class="scheduling-process">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Como funciona</h2>
+                    <p>Agendar sua consulta é simples e rápido. Siga os passos abaixo:</p>
+                </div>
+                
+                <div class="process-steps">
+                    <!-- Passo 1 -->
+                    <div class="card text-center">
+                        <div class="card-content">
+                            <div class="step-number">1</div>
+                            <h3>Escolha o tipo de consulta</h3>
+                            <p class="step-description">Selecione entre consulta presencial ou online</p>
+                            <p>Oferecemos atendimento presencial em nosso consultório ou online, com a mesma qualidade e atenção personalizada.</p>
+                        </div>
+                    </div>
+
+                    <!-- Passo 2 -->
+                    <div class="card text-center">
+                        <div class="card-content">
+                            <div class="step-number">2</div>
+                            <h3>Selecione a profissional</h3>
+                            <p class="step-description">Escolha a especialista que melhor atende suas necessidades</p>
+                            <p>Nossa equipe é composta por profissionais especializadas em diferentes áreas da saúde mental feminina.</p>
+                        </div>
+                    </div>
+
+                    <!-- Passo 3 -->
+                    <div class="card text-center">
+                        <div class="card-content">
+                            <div class="step-number">3</div>
+                            <h3>Escolha data e horário</h3>
+                            <p class="step-description">Selecione o melhor momento para sua consulta</p>
+                            <p>Temos horários flexíveis, incluindo períodos noturnos e aos sábados, para melhor atender à sua agenda.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulário de Agendamento -->
+        <section class="scheduling-form-section">
+            <div class="container">
+                <div class="scheduling-grid">
+                    <!-- Formulário -->
+                    <div class="scheduling-form-container">
+                        <div class="section-header">
+                            <h2>Agende sua consulta</h2>
+                            <p>Preencha o formulário abaixo para agendar sua consulta</p>
+                        </div>
+                        <form class="scheduling-form">
+                            <div class="form-group">
+                                <label for="name">Nome completo</label>
+                                <input type="text" id="name" placeholder="Digite seu nome">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Digite seu email">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefone</label>
+                                <input type="tel" id="phone" placeholder="Digite seu telefone">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Tipo de consulta</label>
+                                <select id="service">
+                                    <option value="">Selecione o tipo de consulta</option>
+                                    <option value="individual">Terapia Individual</option>
+                                    <option value="casal">Terapia de Casal</option>
+                                    <option value="grupo">Grupo Terapêutico</option>
+                                    <option value="avaliacao">Avaliação Inicial</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="professional">Profissional</label>
+                                <select id="professional">
+                                    <option value="">Selecione a profissional</option>
+                                    <option value="ana">Dra. Ana Martins</option>
+                                    <option value="carla">Dra. Carla Santos</option>
+                                    <option value="mariana">Dra. Mariana Costa</option>
+                                    <option value="qualquer">Qualquer profissional disponível</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Data preferencial</label>
+                                <input type="date" id="date">
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Horário preferencial</label>
+                                <select id="time">
+                                    <option value="">Selecione o horário</option>
+                                    <option value="manha">Manhã (8h às 12h)</option>
+                                    <option value="tarde">Tarde (13h às 18h)</option>
+                                    <option value="noite">Noite (18h às 20h)</option>
+                                    <option value="sabado">Sábado (8h às 12h)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Modalidade</label>
+                                <div class="radio-group">
+                                    <label class="radio-label">
+                                        <input type="radio" name="modality" value="presencial">
+                                        <span>Presencial</span>
+                                    </label>
+                                    <label class="radio-label">
+                                        <input type="radio" name="modality" value="online">
+                                        <span>Online</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="notes">Observações (opcional)</label>
+                                <textarea id="notes" placeholder="Informações adicionais que possam ser relevantes"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Solicitar agendamento</button>
+                        </form>
+                    </div>
+
+                    <!-- Informações Adicionais -->
+                    <div class="scheduling-info-container">
+                        <div class="section-header">
+                            <h2>Informações importantes</h2>
+                            <p>Saiba mais sobre nosso processo de agendamento</p>
+                        </div>
+                        
+                        <div class="info-cards">
+                            <div class="card">
+                                <div class="card-content contact-card-content">
+                                    <i class="fas fa-clock"></i>
+                                    <div>
+                                        <h3>Duração das sessões</h3>
+                                        <p>Terapia Individual: 50 minutos</p>
+                                        <p>Terapia de Casal: 1 hora e 30 minutos</p>
+                                        <p>Grupos Terapêuticos: 1 hora e 30 minutos a 2 horas</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card">
+                                <div class="card-content contact-card-content">
+                                    <i class="fas fa-calendar"></i>
+                                    <div>
+                                        <h3>Horários de atendimento</h3>
+                                        <p>Segunda a sexta: 8h às 20h</p>
+                                        <p>Sábados: 8h às 12h</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card">
+                                <div class="card-content contact-card-content">
+                                    <i class="fas fa-check-circle"></i>
+                                    <div>
+                                        <h3>Confirmação</h3>
+                                        <p>Após o envio do formulário, entraremos em contato em até 24 horas úteis para confirmar sua consulta e fornecer informações adicionais.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="cancellation-policy">
+                            <h3>Política de cancelamento</h3>
+                            <p>Caso precise cancelar ou remarcar sua consulta, solicitamos que o faça com pelo menos 24 horas de antecedência. Cancelamentos com menos de 24 horas podem estar sujeitos à cobrança da sessão.</p>
+                            <p>Para cancelamentos ou remarcações, entre em contato pelo telefone (11) 99999-9999 ou pelo email agendamento@psicologiademulheres.com.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Convênios -->
+        <section class="insurance-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Convênios e Formas de Pagamento</h2>
+                    <p>Trabalhamos com diversos convênios e oferecemos opções flexíveis de pagamento</p>
+                </div>
+                
+                <div class="insurance-grid">
+                    <div class="insurance-list">
+                        <h3>Convênios aceitos</h3>
+                        <ul>
+                            <li>Amil</li>
+                            <li>Bradesco Saúde</li>
+                            <li>SulAmérica</li>
+                            <li>Unimed</li>
+                            <li>Porto Seguro</li>
+                            <li>NotreDame Intermédica</li>
+                            <li>Outros (consulte-nos)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="payment-methods">
+                        <h3>Formas de pagamento</h3>
+                        <ul>
+                            <li><i class="fas fa-credit-card"></i> Cartão de crédito (até 6x sem juros)</li>
+                            <li><i class="fas fa-money-bill-wave"></i> Dinheiro</li>
+                            <li><i class="fas fa-barcode"></i> PIX</li>
+                            <li><i class="fas fa-university"></i> Transferência bancária</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2024 Psicologia de Mulheres. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

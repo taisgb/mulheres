@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Psicologia de Mulheres</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="/img/logo.png" alt="Logo" srcset="" id="logo">
+                <!-- <i class="fas fa-heart"></i>
+                <span>Psicologia de Mulheres</span> -->
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="btn btn-primary">
+                <a href="agendar.html">Agendar Consulta</a>
+            </button>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero blog-hero">
+            <div class="container">
+                <div class="hero-content text-center">
+                    <h1>Blog Psicologia de Mulheres</h1>
+                    <p>Artigos, dicas e reflexões sobre saúde mental, bem-estar emocional e desenvolvimento pessoal</p>
+                    <div class="search-container">
+                        <form class="search-form">
+                            <input type="text" placeholder="Buscar no blog...">
+                            <button type="submit" class="btn btn-primary">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Artigos em Destaque -->
+        <section class="featured-posts">
+            <div class="container">
+                <div class="section-header-row">
+                    <div>
+                        <h2>Artigos em Destaque</h2>
+                        <p>Conteúdos selecionados pela nossa equipe</p>
+                    </div>
+                    <a href="#" class="view-all">Ver todos os destaques <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="blog-grid">
+                    <!-- Artigo Destaque 1 -->
+                    <!--  imgs do blog 400x200 -->
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://via.placeholder.com/400x200" alt="Ansiedade em mulheres">
+                            <div class="blog-badge">Destaque</div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Como lidar com a ansiedade no dia a dia</h3>
+                            <div class="blog-meta">
+                                <i class="fas fa-calendar"></i>
+                                <span>12 de Abril, 2024</span>
+                            </div>
+                            <p>Descubra estratégias práticas para gerenciar a ansiedade e encontrar mais equilíbrio emocional no seu cotidiano.</p>
+                            <div class="blog-footer">
+                                <div class="blog-author">
+                                    <i class="fas fa-user"></i>
+                                    <span>Dra. Ana Martins</span>
+                                </div>
+                                <a href="#" class="read-more">Ler mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artigo Destaque 2 -->
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://via.placeholder.com/400x200" alt="Maternidade real">
+                            <div class="blog-badge">Destaque</div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Maternidade real: desafios e alegrias</h3>
+                            <div class="blog-meta">
+                                <i class="fas fa-calendar"></i>
+                                <span>5 de Abril, 2024</span>
+                            </div>
+                            <p>Uma reflexão sobre os desafios e alegrias da maternidade, desmistificando a maternidade idealizada e celebrando a real.</p>
+                            <div class="blog-footer">
+                                <div class="blog-author">
+                                    <i class="fas fa-user"></i>
+                                    <span>Dra. Carla Santos</span>
+                                </div>
+                                <a href="#" class="read-more">Ler mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artigo Destaque 3 -->
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://via.placeholder.com/400x200" alt="Relacionamentos saudáveis">
+                            <div class="blog-badge">Destaque</div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Construindo relacionamentos saudáveis</h3>
+                            <div class="blog-meta">
+                                <i class="fas fa-calendar"></i>
+                                <span>28 de Março, 2024</span>
+                            </div>
+                            <p>Aprenda a estabelecer limites, melhorar a comunicação e cultivar relacionamentos mais saudáveis e satisfatórios.</p>
+                            <div class="blog-footer">
+                                <div class="blog-author">
+                                    <i class="fas fa-user"></i>
+                                    <span>Dra. Mariana Costa</span>
+                                </div>
+                                <a href="#" class="read-more">Ler mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Artigos Recentes -->
+        <section class="recent-posts">
+            <div class="container">
+                <div class="section-header-row">
+                    <div>
+                        <h2>Artigos Recentes</h2>
+                        <p>Últimas publicações do nosso blog</p>
+                    </div>
+                    <a href="#" class="view-all">Ver todos os artigos <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="blog-grid">
+                    <!-- Artigo 1 -->
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://via.placeholder.com/400x200" alt="Autocuidado">
+                        </div>
+                        <div class="blog-content">
+                            <h3>5 práticas de autocuidado para o dia a dia</h3>
+                            <div class="blog-meta">
+                                <i class="fas fa-calendar"></i>
+                                <span>20 de Março, 2024</span>
+                            </div>
+                            <p>Dicas simples e eficazes para incluir o autocuidado na sua rotina diária e melhorar seu bem-estar.</p>
+                            <div class="blog-footer">
+                                <div class="blog-author">
+                                    <i class="fas fa-user"></i>
+                                    <span>Dra. Ana Martins</span>
+                                </div>
+                                <a href="#" class="read-more">Ler mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artigo 2 -->
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://via.placeholder.com/400x200" alt="Síndrome do impostor">
+                        </div>
+                        <div class="blog-content">
+                            <h3>Síndrome do impostor: como identificar e superar</h3>
+                            <div class="blog-meta">
+                                <i class="fas fa-calendar"></i>
+                                <span>15 de Março, 2024</span>
+                            </div>
+                            <p>Entenda o que é a síndrome do impostor, como ela afeta principalmente as mulheres e estratégias para superá-la.</p>
+                            <div class="blog-footer">
+                                <div class="blog-author">
+                                    <i class="fas fa-user"></i>
+                                    <span>Dra. Mariana Costa</span>
+                                </div>
+                                <a href="#" class="read-more">Ler mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artigo 3 -->
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://via.placeholder.com/400x200" alt="Burnout">
+                        </div>
+                        <div class="blog-content">
+                            <h3>Burnout feminino: quando o corpo pede pausa</h3>
+                            <div class="blog-meta">
+                                <i class="fas fa-calendar"></i>
+                                <span>10 de Março, 2024</span>
+                            </div>
+                            <p>Os sinais de alerta do burnout, especialmente em mulheres que conciliam múltiplos papéis, e como prevenir.</p>
+                            <div class="blog-footer">
+                                <div class="blog-author">
+                                    <i class="fas fa-user"></i>
+                                    <span>Dra. Carla Santos</span>
+                                </div>
+                                <a href="#" class="read-more">Ler mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artigo 4 -->
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://via.placeholder.com/400x200" alt="Terapia online">
+                        </div>
+                        <div class="blog-content">
+                            <h3>Terapia online: eficácia e benefícios</h3>
+                            <div class="blog-meta">
+                                <i class="fas fa-calendar"></i>
+                                <span>5 de Março, 2024</span>
+                            </div>
+                            <p>Descubra como a terapia online pode ser tão eficaz quanto a presencial e os benefícios para sua rotina.</p>
+                            <div class="blog-footer">
+                                <div class="blog-author">
+                                    <i class="fas fa-user"></i>
+                                    <span>Dra. Ana Martins</span>
+                                </div>
+                                <a href="#" class="read-more">Ler mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artigo 5 -->
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://via.placeholder.com/400x200" alt="Inteligência emocional">
+                        </div>
+                        <div class="blog-content">
+                            <h3>Desenvolvendo inteligência emocional</h3>
+                            <div class="blog-meta">
+                                <i class="fas fa-calendar"></i>
+                                <span>28 de Fevereiro, 2024</span>
+                            </div>
+                            <p>Como desenvolver habilidades emocionais que ajudam a lidar melhor com os desafios da vida.</p>
+                            <div class="blog-footer">
+                                <div class="blog-author">
+                                    <i class="fas fa-user"></i>
+                                    <span>Dra. Mariana Costa</span>
+                                </div>
+                                <a href="#" class="read-more">Ler mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artigo 6 -->
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://via.placeholder.com/400x200" alt="Meditação">
+                        </div>
+                        <div class="blog-content">
+                            <h3>Meditação para iniciantes: guia prático</h3>
+                            <div class="blog-meta">
+                                <i class="fas fa-calendar"></i>
+                                <span>20 de Fevereiro, 2024</span>
+                            </div>
+                            <p>Um guia simples para começar a meditar, mesmo com pouco tempo disponível e muitas distrações.</p>
+                            <div class="blog-footer">
+                                <div class="blog-author">
+                                    <i class="fas fa-user"></i>
+                                    <span>Dra. Carla Santos</span>
+                                </div>
+                                <a href="#" class="read-more">Ler mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pagination">
+                    <button class="pagination-btn disabled">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="pagination-btn active">1</button>
+                    <button class="pagination-btn">2</button>
+                    <button class="pagination-btn">3</button>
+                    <button class="pagination-btn">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-grid">
+                    <div class="newsletter-content">
+                        <h2>Assine nossa newsletter</h2>
+                        <p>Receba artigos, dicas e novidades sobre saúde mental diretamente no seu email</p>
+                    </div>
+                    <div class="newsletter-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="newsletter-email">Email</label>
+                                <input type="email" id="newsletter-email" placeholder="Digite seu email">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Assinar newsletter</button>
+                        </form>
+                        <p class="form-disclaimer">Ao assinar, você concorda com nossa política de privacidade. Você pode cancelar a inscrição a qualquer momento.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2024 Psicologia de Mulheres. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
